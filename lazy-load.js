@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // 1. Tafuta picha zote kwenye makala (post-body)
-    var lazyImages = document.querySelectorAll('.post-body img');
+    var lazyImages = document.querySelectorAll('#image-content img');
     
     // 2. Kama Browser inasubiri Native Lazy Loading (Teknolojia ya 2026)
     if ('loading' in HTMLImageElement.prototype) {
